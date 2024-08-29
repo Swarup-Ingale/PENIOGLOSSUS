@@ -1,0 +1,25 @@
+class penioglossus{
+	int pus;
+	String sy;
+
+ penioglossus()
+ {
+ 	System.out.println("The Penioglossus is Not Ready to GO !!!!");
+ }
+ 
+ penioglossus(int p, String s)
+ {
+ 	System.out.println("The Penioglossus is Ready to GO !!!!");
+ 	pus = p;
+ 	sy = s;
+ }
+}
+
+class testas{
+	public static void main(String [] args)
+	{
+		penioglossus p = new penioglossus();
+		penioglossus pin = new penioglossus(18, "VIRAJ DUBULE");
+		System.out.println("The Roll Call Of Penioglossus is : " + pin.pus + " \n" + "The Real Identity of Penioglossus is : " + pin.sy );
+	}
+}
